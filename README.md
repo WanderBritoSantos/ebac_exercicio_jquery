@@ -54,7 +54,11 @@ Exclusão:
 Ao clicar no ícone da lixeira, o item da lista é removido, mesmo que ainda não tenha sido concluído.
 
 
+## Publicação
 
+O projeto está publicado na Vercel e pode ser acessado pelo link abaixo:  
+[Link para a aplicação na Vercel]((https://ebac-exercicio-jquery-three.vercel.app//))
+(https://ebac-exercicio-jquery-three.vercel.app//)
 
 
 
