@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA DE TAREFAS </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* global css*/
+        footer{
+            width: 100%;
+            background-color: #222;
+             color: #fff;
+             text-align: center;
+             padding: 20px 10px;
+             font-family: 'Arial',sans-serif;
+             font-size: large;
+             box-shadow: 0 -3px 10px rgba(0,0,0,0.2);
+
+        }
+        footer p{
+            margin:5px 0;
+            line-height: 1.6;
+        }
+
+        footer a {
+            color:#1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover{
+            color:#87ceeb;
+            text-decoration: underline;
+        }
+        @media (max-width:60px){
+            footer{
+                font-size: 10px;
+                padding: 15px 5px;
+            }
+        }
+
+        
+    </style>
+    <script src="jquery-3.7.1.min.map"></script>
+
+</head>
+<body>
+    <header><h1>LISTA DE TAREFAS</h1></header>
+
+    <main>
+    <form action="">
+        <label for="">Tarefa:</label>
+        <input type="text" id="f_tarefa">
+        <div id="btn_prioridade">
+            prioridade 
+            <div id="btns_P">
+                <label for=""> alta:  <input id="p_alta"  class='btnRaio' type="radio" name="prioridade"></label>
+                <label for=""> media: <input id="p_media" class='btnRaio' type="radio" name="prioridade"></label>
+                <label for=""> baixa: <input id="p_baixa" class='btnRaio' type="radio" name="prioridade"></label>
+            </div>
+            
+        </div>
+        <button type="button" id="btn_tarefa">enviar</button>
+    </form>
+
+  <section>
+        <div class="divtitle">
+            <p class="p_title" >Tarefa</p>
+            <p class="p_title" >Prioridade</p>
+            <p class="p_title" >Status</p>
+            <p class="p_title" >Del</p>
+        </div>
+            <ul id="ul1">
+             <!-- <li><p class="p_title" id="nomeTarefa">Tarefa</p>
+                    <p class="p_title" id="pTarefa">Alta</p>
+                    <p class="p_title" id="pStatus">Ativa</p>
+                    <p class="p_title" id="pimg">
+                        <img src="" alt="">img
+                    </p>
+                </li>-->
+            
+    </ul>
+</section>
+</main> 
+    <footer>
+
+<div class='foote-container' >
+    <p>&copy; <span id="data"></span>
+        Wanderson Brito Santos. Todos os direitos reservados.
+    </p>
+    <p>Email: <a href="mailto:wbsmsn@hotmail.com">wbsmsn@hotmail.com</a>
+    </p>
+    <p> 
+        <a href="https://github.com/WandersonBritoSantos" taget="_blank">Github</a> |
+        <a href="https://linkedin.com/in/wanderson-brito-santos-6284a01ab" target="_blank">LinkedIn</a>
+    </p>
+</div>
+    </footer>
+
+</body>
+<script>
+        document.getElementById("data").textContent = new Date().getFullYear();
+
+</script>
+<script src="javascript.js">
+</script>
+</html>

@@ -1,0 +1,156 @@
+*{
+   border: none;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body{
+width: 100%;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: auto;
+}
+header{
+width: 100%;
+background-color: blue;
+height: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main{
+    width: 100%;
+    background-color:#bbb;
+    height: 70%;
+    display:inline-block;
+    justify-items: center;
+    align-content: start;
+}
+form {
+display: flex;
+position: relative;
+background-color: #22222a;
+width: 50%;
+min-width: 400px;
+height: 40px;
+margin: 30px;
+padding: 10px;
+justify-items: center;
+align-items: flex-start;
+justify-content: space-around;
+color: rgb(192, 224, 243);
+border-radius: 15px 15px 0px 0px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+form label{
+justify-content: space-between;
+display: flex;
+margin-left:1px ;
+margin-right: 10px;
+padding: 2px;
+}
+#f_tarefa{
+    border-radius: 5px;
+    height: 25px;
+    padding-left:5px ;
+}
+#btn_prioridade{
+    padding: 2px 3px 2px 3px;
+    margin: 3px;
+    justify-items: center;
+    background-color: #6d1935;
+    border-radius: 5px;
+    color: rgb(250, 255, 255);
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}         
+#btns_P{
+  border:1px solid #471643;
+  background-color: rgb(14, 14, 0);
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+  display: none;
+
+}
+#btns_P label{
+    margin: 5px;
+    background-color:#fff;
+    color:#000;
+    border-radius: 5px;
+}
+   
+#btn_tarefa{
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn_tarefa:hover {
+    border: 1px solid #dd2f11;
+    width: 65px ;
+    height: 25px;
+    background-color: #fa5133;
+    cursor: pointer;
+    color: #fff;
+}
+
+section{
+   
+   width: 50%;
+   min-width: 400px;
+   border-radius: 5px;
+   padding: 5px;
+   overflow: hidden;
+}
+.divtitle{
+    display: flex;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.p_title{
+    display: flex;
+    width: 25%;
+    border-radius: 5px 5px;
+    justify-content: center; 
+
+}
+ul{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+ul li{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: rgb(37, 150, 150);
+    margin: 2px 0px 2px 0px;
+    padding: 2px;
+    
+}
+    ul li p{
+        display: flex;
+        width: 25%;
+        border-radius: 5px 5px;
+        justify-content: center; 
+}
+.feito{
+    background-color: #000;
+}
+footer{
+    width: 100%;
+background-color: blue;
+height: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
